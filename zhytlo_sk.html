@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="sk">
 <head>
@@ -19,48 +18,24 @@
     p {
       font-size: 1.2rem;
     }
+    @media (max-width: 600px) {
+      nav {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      nav a {
+        background-color: #e0ecff;
+        padding: 0.5rem;
+        display: block;
+        border-radius: 6px;
+        text-decoration: none;
+      }
+    }
   </style>
-
-<style>
-  @media (max-width: 600px) {
-    body {
-      padding: 1rem;
-    }
-    nav {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0.5rem;
-    }
-    nav a {
-      display: block;
-      padding: 0.5rem;
-      background-color: #e0ecff;
-      width: 100%;
-      text-decoration: none;
-      border-radius: 6px;
-      color: #002F6C;
-    }
-    form, input, textarea, button {
-      width: 100% !important;
-      box-sizing: border-box;
-    }
-  }
-</style>
-
 </head>
 <body>
   
-<nav style="margin-bottom: 2rem;">
-  <a href="index.html">Головна</a> |
-  <a href="dokumenty.html">Документи</a> |
-  <a href="zhytlo.html">Житло</a> |
-  <a href="finansy.html">Фінанси</a> |
-  <a href="medytsyna.html">Медицина</a> |
-  <a href="konsultatsia.html">Консультація</a> |
-  <a href="bot.html">Чат-бот</a>
-</nav>
-
 <nav style="margin-bottom: 2rem;">
   <a href="index_sk.html">Domov</a> |
   <a href="dokumenty_sk.html">Dokumenty</a> |
@@ -70,22 +45,12 @@
   <a href="konsultatsia_sk.html">Konzultácia</a> |
   <a href="bot_sk.html">Chatbot</a>
 </nav>
-<h1>Bývanie</h1>
+  <h1>Bývanie</h1>
   <p>Ako nájsť, prenajať a zaregistrovať bývanie na Slovensku.</p>
-  
-          
-    <div style='margin-top:2rem;'>
-      <a href="zhytlo.html">🇺🇦 Українська</a> |
-      <a href="zhytlo_sk.html">🇸🇰 Slovenský</a> |
-      <a href="zhytlo_en.html">en Англійська</a>
-    </div>
-    
-        
-
-<footer style="margin-top: 3rem; padding: 1rem; background: #002F6C; color: white; text-align: center;">
-  <p>&copy; 2025 Poradna. Všetky práva vyhradené.</p>
-  <p><a href="mailto:info@poradna.org" style="color: #FFD700;">info@poradna.org</a></p>
+  <div style='margin-top:2rem;'><a href="zhytlo_.html">Українська</a> | <a href="zhytlo_en.html">en Англійська</a> | <a href="zhytlo_sk.html">🇸🇰 Slovenský</a></div>
+  <footer style="margin-top:3rem;padding:1rem;background:#002F6C;color:white;text-align:center;">
+<p>&copy; 2025 Poradna. Všetky práva vyhradené.</p>
+<p><a href="mailto:info@poradna.org" style="color:#FFD700;">info@poradna.org</a></p>
 </footer>
-
 </body>
 </html>
